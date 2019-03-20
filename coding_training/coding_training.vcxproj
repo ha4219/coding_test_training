@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,13 +119,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bj_15722.cpp" />
     <ClCompile Include="bj_15734.cpp" />
     <ClCompile Include="bj_15802.cpp" />
     <ClCompile Include="bj_15890.cpp" />
     <ClCompile Include="bj_16394.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="test.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bj_15722.h" />
     <ClInclude Include="bj_15734.h" />
     <ClInclude Include="bj_15802.h" />
     <ClInclude Include="bj_15890.h" />

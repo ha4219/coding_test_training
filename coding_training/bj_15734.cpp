@@ -11,7 +11,7 @@ void bj_15734() {
 		(left < right) ? left++ : right++;
 	}
 
-	
 
-	cout << (left > right) ? right * 2 : left * 2;
+	int res = (left > right) ? right * 2 : left * 2;
+	cout << res << endl;
 }

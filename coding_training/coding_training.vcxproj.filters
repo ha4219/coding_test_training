@@ -30,6 +30,12 @@
     <ClCompile Include="bj_15734.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="bj_15722.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bj_16394.h">
@@ -42,6 +48,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="bj_15734.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bj_15722.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
