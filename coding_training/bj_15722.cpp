@@ -62,9 +62,5 @@ void bj_15722() {
 		range++;
 	}
 	
-	
-
-	
-
 	cout << x <<" "<< y << endl;
 }

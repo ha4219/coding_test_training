@@ -119,20 +119,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bj_1011.cpp" />
+    <ClCompile Include="bj_11060.cpp" />
+    <ClCompile Include="bj_14915.cpp" />
+    <ClCompile Include="bj_15624.cpp" />
     <ClCompile Include="bj_15722.cpp" />
     <ClCompile Include="bj_15734.cpp" />
     <ClCompile Include="bj_15802.cpp" />
     <ClCompile Include="bj_15890.cpp" />
     <ClCompile Include="bj_16394.cpp" />
+    <ClCompile Include="bj_1697.cpp" />
+    <ClCompile Include="bj_1965.cpp" />
+    <ClCompile Include="bj_2178.cpp" />
+    <ClCompile Include="bj_2504.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="test.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bj_1011.h" />
+    <ClInclude Include="bj_11060.h" />
+    <ClInclude Include="bj_14915.h" />
+    <ClInclude Include="bj_15624.h" />
     <ClInclude Include="bj_15722.h" />
     <ClInclude Include="bj_15734.h" />
     <ClInclude Include="bj_15802.h" />
     <ClInclude Include="bj_15890.h" />
     <ClInclude Include="bj_16394.h" />
+    <ClInclude Include="bj_1697.h" />
+    <ClInclude Include="bj_1965.h" />
+    <ClInclude Include="bj_2178.h" />
+    <ClInclude Include="bj_2504.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

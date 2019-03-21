@@ -1,11 +1,8 @@
+#include"bj_2178.h"
 
-#include<iostream>
-#include"bj_15722.h"
-
-using namespace std;
 
 int main()
 {
-	bj_15722();
+	bj_2178();
 	return 0;
 }
