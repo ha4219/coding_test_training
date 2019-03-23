@@ -1,8 +1,9 @@
-#include"bj_2178.h"
+
+#include"bj_7576.h"
 
 
 int main()
 {
-	bj_2178();
+	bj_7576();
 	return 0;
 }

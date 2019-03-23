@@ -8,7 +8,7 @@ typedef struct {
 } bfs;
 
 
-int check[100003] = { 0, };
+int tomato_check[100003] = { 0, };
 
 void bj_1697() {
 	int result = 0;
@@ -27,19 +27,19 @@ void bj_1697() {
 		}
 
 		q.pop();
-		check[curN] = true;
+		tomato_check[curN] = true;
 
-		if (curN + 1 <= 100000 && !check[curN + 1])
+		if (curN + 1 <= 100000 && !tomato_check[curN + 1])
 		{
-			check[curN + 1] = 1;
+			tomato_check[curN + 1] = 1;
 			q.push({ curN + 1, curLenght + 1});
 		}
-		if(curN -1 >= 0 && !check[curN - 1]) {
-			check[curN - 1] = 1;
+		if(curN -1 >= 0 && !tomato_check[curN - 1]) {
+			tomato_check[curN - 1] = 1;
 			q.push({ curN - 1 , curLenght + 1 });
 		}
-		if (curN*2<=100000 && !check[curN * 2]) {
-			check[curN * 2] = 1;
+		if (curN*2<=100000 && !tomato_check[curN * 2]) {
+			tomato_check[curN * 2] = 1;
 			q.push({ curN * 2, curLenght + 1 });
 		}
 	}
