@@ -121,6 +121,7 @@
   <ItemGroup>
     <ClCompile Include="bj_1011.cpp" />
     <ClCompile Include="bj_1076.cpp" />
+    <ClCompile Include="bj_10808.cpp" />
     <ClCompile Include="bj_10844.cpp" />
     <ClCompile Include="bj_10953.cpp" />
     <ClCompile Include="bj_11022.cpp" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="bj_1011.h" />
     <ClInclude Include="bj_1076.h" />
+    <ClInclude Include="bj_10808.h" />
     <ClInclude Include="bj_10844.h" />
     <ClInclude Include="bj_10953.h" />
     <ClInclude Include="bj_11022.h" />
