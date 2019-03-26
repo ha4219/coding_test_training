@@ -16,5 +16,7 @@ void bj_10808() {
 		cout << arr[i];
 		if (i != 25)
 			cout << " ";
+		else
+			cout << endl;
 	}
 }
